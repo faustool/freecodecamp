@@ -1,0 +1,50 @@
+.welcome {
+    position: relative;
+}
+.menu {
+    z-index: 1;
+    position: fixed;
+}
+.center-block {
+    float: none !important
+}
+#menu-space {
+    margin-top: 50px;
+}
+.navbar {
+    max-width: 150px;
+    margin-right: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.navbar-collapse {
+    padding: 0 0 0 0 !important;
+}
+
+.navbar-nav, .navbar-nav > li, .navbar-left, .navbar-right, .navbar-header {
+    float: none !important;
+}
+
+.links {
+    padding-top: 20px;
+}
+
+#my-name {
+    text-shadow: 2px 2px white;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+#home {
+    height: 800px;
+    padding-top: 50px;
+    background-color: gray;
+}
+#portfolio {
+    height: 400px;
+    background-color: green;
+}
+#resume {
+    height: 700px;
+    background-color: blue;
+}
