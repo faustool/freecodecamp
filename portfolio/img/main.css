@@ -1,0 +1,142 @@
+body {
+  padding-top: 50px;
+  background-color: #FAEADC;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Coustard', serif;
+}
+
+#profile-picture {
+  max-width: 100px;
+}
+
+.left-panel {
+  margin-top: 2rem;
+}
+
+.panel {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 1rem;
+  background-color: #FCFFFE;
+  color: #444;
+  padding: 1rem;
+}
+
+.cont {
+  margin-bottom: 1rem;
+}
+
+.pi-row {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.pi-wide {
+  height: 300px;
+}
+
+.pi-img-wide {
+  overflow: auto;
+  height: 270px;
+}
+
+.pi-sq {
+  max-height: 150px;
+}
+
+.pi-img-sq {
+  max-height: 120px;
+}
+
+.pi-text {
+  height: 30px;
+  line-height: 30px;
+}
+
+.placeholder {
+  background-color: #376f99;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+  background-color: #376f99;
+}
+.navbar .navbar-brand {
+  color: #7ccefb;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: #faeadc;
+}
+.navbar .navbar-text {
+  color: #7ccefb;
+}
+.navbar .navbar-nav .nav-link {
+  color: #7ccefb;
+  border-radius: .25rem;
+  margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+  color: #faeadc;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+  color: #faeadc;
+  background-color: #949cb5;
+}
+.navbar .navbar-toggle {
+  border-color: #949cb5;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+  background-color: #949cb5;
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+  color: #7ccefb;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+  border-color: #7ccefb;
+}
+.navbar .navbar-link {
+  color: #7ccefb;
+}
+.navbar .navbar-link:hover {
+  color: #faeadc;
+}
+
+@media (max-width: 767px) {
+  .navbar .navbar-nav .open .dropdown-menu .dropdown-item {
+    color: #7ccefb;
+  }
+  .navbar .navbar-nav .open .dropdown-menu .dropdown-item:hover,
+  .navbar .navbar-nav .open .dropdown-menu .dropdown-item:focus {
+    color: #faeadc;
+  }
+  .navbar .navbar-nav .open .dropdown-menu .dropdown-item.active {
+    color: #faeadc;
+    background-color: #949cb5;
+  }
+}
