@@ -1,0 +1,21 @@
+body {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}
+
+.container {
+  width: 400px;
+  margin-top: 30px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+#block {
+  background-color: #FCFFFE;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1rem;
+  font-family: 'Noto Sans', sans-serif;
+}
