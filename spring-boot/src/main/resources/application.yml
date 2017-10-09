@@ -1,7 +1,3 @@
 server:
-  port: 8443
-  ssl:
-    key-store: classpath:key/keystore.p12
-    key-store-password: g\EW&!s](bgW4C4uqHp$bk_
-    keyStoreType: PKCS12
-    keyAlias: tomcat
+  port: ${PORT}
+  jetty.max-threads: 4
