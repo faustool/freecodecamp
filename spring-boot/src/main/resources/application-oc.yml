@@ -5,3 +5,4 @@ server:
     key-store-password: g\EW&!s](bgW4C4uqHp$bk_
     keyStoreType: PKCS12
     keyAlias: tomcat
+  tomcat.max-threads: 4
